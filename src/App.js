@@ -4,7 +4,7 @@ import List from './List';
 function App() {
   const[people ,setPeople] = useState(data)
   return (
-  <maim>
+  <main>
     <section className="container">
       <h1> {people.length} birthdays today</h1>
       <List people={people}/>
@@ -12,7 +12,7 @@ function App() {
          Clear All</button>
     </section>
 
-  </maim>
+  </main>
   );
 }
 
